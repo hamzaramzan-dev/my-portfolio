@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading {
+    border: 1px solid #ffffff;
+    background-color: purple;
+    height: 50px;
+    text-align: center;
+    padding-top: 10PX;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-heading,
+.about-paragraph {
+    padding-bottom: 10px;
+}
+
+.projects {
+    text-align: center;
+    border: 1px solid  black;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+.project-heading {
+    margin: 16px auto;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.links {
+    text-align: center;
+}
+
+.fa-brands{
+    color: black;
+}
+
+.fa-brands:hover {
+    color: red;
+}
+
+.i-links {
+    margin-right: 20px;
+}
+
+.i-links:last-child {
+    margin-right: 0;
+}
